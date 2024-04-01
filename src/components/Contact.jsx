@@ -6,9 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// rLhc_xdLHR5db2Esr
-// template_iwpyroq
-// service_58nizsq
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -36,10 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        'service_94d27tp',
-        'template_gt39f0z',
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Kilundi",
@@ -47,8 +43,8 @@ const Contact = () => {
           to_email: "muthiani42@gmail.com",
           message: form.message,
         },
-        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-        "rLhc_xdLHR5db2Esr"
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+
       )
       .then(
         () => {
