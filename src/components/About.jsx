@@ -38,7 +38,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 
       >
-        I'm a skilled software developer with experience in TypeScript and JavaScript, Python, and expertise in frameworks like React and Django. I learn fast and work closely with clients to make practical solutions that are efficient, scalable, and easy for people to use. Let's team up to make your ideas happen!
+        I'm a skilled software developer experienced in JavaScript and Python, specializing in frameworks like React and Django. I excel at quickly grasping new concepts and enjoy working closely with clients to create practical, efficient, and user-friendly solutions. Let's team up and bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
